@@ -3,9 +3,9 @@ import logo from '../../images/Logo.svg'
 import './Header.css'
 const Header = () => {
     return (
-        <nav className='header-container'>
+        <nav className='header'>
             <img src={logo} alt="" />
-            <div className='a-container'>
+            <div>
                 <a href="/shop">Shop</a>
                 <a href="/orders">Orders</a>
                 <a href="/inventory">Inventory</a>

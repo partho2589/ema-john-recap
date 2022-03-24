@@ -1,0 +1,12 @@
+.product-name{
+    font-weight: 400;
+    font-size: 21px;
+    color: #0E161A;
+}
+#product-img{
+    padding: 5px;
+    border-radius: 8px;
+}
+#product-img:hover{
+    border: 1px solid burlywood;
+}

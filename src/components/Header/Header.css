@@ -1,4 +1,4 @@
-.header-container{
+.header{
     background-color: #1C2B35;
     display: flex;
     align-items: center;
@@ -7,16 +7,18 @@
     width: auto;
 
 }
-.header-container img{
+.header img{
     margin-right: 200px;
     margin-left: 146px ;
 }
-.a-container{
-    margin-right: 139px;
-}
-.header-container a {
+
+
+.header a {
     text-decoration:none;
     color: white;
-    margin-left: 36px;
     font-size: 17px;
+    margin-right: 36px;
+}
+.header a:hover{
+color: burlywood;
 }
